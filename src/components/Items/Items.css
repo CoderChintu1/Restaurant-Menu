@@ -1,0 +1,53 @@
+.main-item-div{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+    background-color: white; 
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+}
+
+.food-category{
+    color: black;
+    font-style: italic;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align:center;
+}
+
+.item{
+    margin: 1rem;
+    display: flex;
+}
+
+.text{
+    color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.text span{
+    font-weight: bolder;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color:black;
+}
+
+.btn-btn{
+    margin-left: 2rem;
+    background-color: rgb(17, 47, 87);
+    color:honeydew;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px 50px;
+    box-shadow: 0 0 50px #ccc;
+    transition: ease-in 300ms;
+    cursor: pointer;
+}
+
+.btn-btn:hover{
+    background-color: rgb(33, 90, 33);
+    transition: ease-in 300ms;
+}

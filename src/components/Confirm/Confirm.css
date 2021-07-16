@@ -1,0 +1,34 @@
+.pop-up{
+    position: fixed;
+    top:50%;
+    left:50%;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8 ;
+    z-index: 501;
+    width: 400px;
+    height:100px;
+    margin-top: -50px;
+    margin-left:-200px;
+    border-radius: 10px;
+}
+
+.order{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: 90%;
+}
+
+.delete:hover{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+
