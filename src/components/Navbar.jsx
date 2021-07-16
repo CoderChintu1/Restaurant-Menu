@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="body">
             <Links />
             <Switch>
-                <Route exact path = '/' component = {Menu} />
+                <Route exact path = '/Restaurant-Menu' component = {Menu} />
                 <Route exact path = '/about' component = {About} />
             </Switch>
             <Footer />

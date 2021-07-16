@@ -11,7 +11,7 @@ const Links = () => {
     return (
         <>
         <div className = "navBar">
-            <NavLink className = "navClass" exact activeClassName = "active-class" to = "/"> MENU </NavLink>
+            <NavLink className = "navClass" exact activeClassName = "active-class" to = "/Restaurant-Menu"> MENU </NavLink>
             <NavLink className = "navClass" exact activeClassName = "active-class" to = "/about"> OUR STORY </NavLink>
             <Cart isToggle={isToggle} setToggle={setToggle} isTrigger= {isTrigger} setTrigger = {setTrigger} carts ={context.carts} sum = {context.sum} addProductToCart={context.addProductToCart} 
             removeProductFromCart = {context.removeProductFromCart} clearCart= {context.clearCart} 
